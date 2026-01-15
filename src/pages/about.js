@@ -13,10 +13,8 @@ export default function AboutPage({ page }) {
   const title = page?.fields?.title || "About me";
 
   const rawBody = page?.fields?.body || "";
-  // Gör om radbrytningar till ett stycke:
   const body = rawBody.replace(/\s*\n+\s*/g, " ").trim();
 
-  // Lägg din PDF i /public
   const cvUrl = "/Maj-Wongsabut-CV.pdf";
 
   const cardClass =
@@ -44,7 +42,7 @@ export default function AboutPage({ page }) {
               </p>
             </div>
 
-            {/* Tech */}
+            {/* Techhh */}
             <div className={cardClass} style={cardRadius}>
               <p className="text-sm font-semibold text-white">Tech</p>
               <p className="mt-2 text-sm text-white/60">

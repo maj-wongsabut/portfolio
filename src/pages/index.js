@@ -67,7 +67,7 @@ export default function HomePage({ page }) {
 
             <div
               className="relative overflow-hidden"
-              style={{ borderRadius: "8px" }} // ← spetsigare hörn
+              style={{ borderRadius: "8px" }}
             >
               {imageUrl ? (
                 <>
@@ -77,7 +77,7 @@ export default function HomePage({ page }) {
                     className="h-[480px] w-full object-cover"
                   />
 
-                  {/* soft edge blending */}
+                  {/* */}
                   <div className="pointer-events-none absolute inset-0">
                     <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-neutral-950 to-transparent" />
                     <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-neutral-950 to-transparent" />
